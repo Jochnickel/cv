@@ -48,9 +48,9 @@ class JoachimJanke {
     async work(jobtitle: string, duration: string) { }
 
     async idle(duration: string) {
-        setTimeout(() => {
-
-        }, stringToSeconds(duration));
+        return new Promise((fulfill, reject) =>
+            setTimeout(fulfill, stringToSeconds(duration))
+        );
     }
 
     addReference(reference: string) {
