@@ -66,7 +66,7 @@ class JoachimJanke {
     }
 }
 
-enum Grade { SEHR_GUT, GUT, BEFRIEDIGEND, AUSREICHEND, MANGELHAFT, UNGENÜGEND }
+enum Grade { SEHR_GUT, GUT, BEFRIEDIGEND, AUSREICHEND, MANGELHAFT, UNGENUEGEND }
 
 interface GermanSchoolDegree { }
 
