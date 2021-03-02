@@ -1,6 +1,6 @@
 class JoachimJanke {
 
-    readonly github = "github.com/Jochnickel";
+    readonly github = "github.com/Schokokex";
     readonly references = [];
     readonly languages = ["English", "Java", "SQL", "C", "Typescript", "Python"];
 
